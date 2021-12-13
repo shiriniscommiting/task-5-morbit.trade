@@ -1,0 +1,29 @@
+.k-i-arrow-s::before {
+  display: none;
+}
+.k-dialog-titlebar {
+  background-color: goldenrod !important;
+}
+.k-dropdown-wrap {
+  border-radius: 5px !important;
+  border-color: rgba(194, 194, 194, 0.349) !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+.k-form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.k-submit {
+  color: white;
+  background-color: goldenrod;
+}
+.k-button,
+.k-submit {
+  padding: 5px 35px !important;
+  border-color: transparent !important;
+  border-radius: 5px !important;
+  &:hover {
+    transition: 1s;
+    background-color: grayscale($color: #c0c0c0);
+  }
+}

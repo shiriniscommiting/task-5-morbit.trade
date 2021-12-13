@@ -8,9 +8,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@progress/kendo-data-query": "^1.5.5",
+    "@progress/kendo-licensing": "^1.2.1",
+    "@progress/kendo-react-animation": "^4.13.0",
+    "@progress/kendo-react-dialogs": "^4.13.0",
+    "@progress/kendo-react-form": "^4.13.0",
+    "@progress/kendo-react-grid": "^4.13.0",
+    "@progress/kendo-theme-default": "^4.43.0",
+    "axios": "^0.24.0",
     "next": "12.0.7",
+    "prop-types": "^15.7.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "redux": "^4.1.2"
   },
   "devDependencies": {
     "eslint": "8.4.1",
